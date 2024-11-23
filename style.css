@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+  }
+body{
+    margin: 0px;
+}  
+
+.main-bg{
+    display: flex;
+    justify-content: center;
+    background-image: url(" https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/todolistbg.png");
+    background-size: cover;
+    height: 100vh;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.content-container{
+    font-family: "roboto";
+    color: #ffffff;
+    text-align: center;
+    width: 80%;
+}
+h3{
+    text-align: left;
+}
+.decribetion{
+    text-align: left;
+}
+            
+.button{
+  height: 30px;
+  width: 80px;
+  color: #ffffff;
+  background-color: orangered;
+  margin-bottom: 10px;
+}
+a{
+    color: #ffffff;
+}
